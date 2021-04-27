@@ -1,0 +1,12 @@
+from tkinter import #imports tkinter and random
+import random
+
+root = Tk() #initialises tkinter
+root.geometry('400x400') #sets window width and height
+root.resizable(0,0) #fix the size of the window
+root.title('DataFlair-Rock,Paper,Scissors') #used to set the title
+root.config(bg ='seashell3') #used to set the background color
+
+Label(root, text = 'Rock, Paper ,Scissors' , font='arial 20 bold', bg = 'seashell2').pack()
+#displays the text by specifying the font size
+
